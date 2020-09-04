@@ -1,3 +1,19 @@
+#modal-root {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+#modal-root > div {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .App {
   height: 100vh;
   display: flex;
