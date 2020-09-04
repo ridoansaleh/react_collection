@@ -1,0 +1,14 @@
+.content {
+  /* height: 300px; */
+  width: 250px;
+  background-color: bisque;
+  z-index: 100;
+  margin: 40px 0;
+  padding: 10px;
+}
+
+.content > div {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
